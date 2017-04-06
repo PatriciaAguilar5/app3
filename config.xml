@@ -5,10 +5,10 @@ xmlns:gap ="http://phonrgap.com/ns/1.0"
 id ="com.phonegap.example1"
 version ="1.0.0">
 
-<name>app1 DATOSALUMNO </name>
+<name>app3 CONTAMINACIÓN </name>
 
 <description>
-Aplicacion que muestra los DATOS del alumno
+Aplicacion que muestra la contaminación
 </description>
 
 <author href="http://build.phonegap.com" email="aguilarpatricia882@gmail.com">
@@ -32,6 +32,13 @@ Rosa Patricia Aguilar Sandoval 4F
 
 <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
 <!--Third part plugins-->
+<!--Para accesar a paginas en internet-->
+	<allow-intent href="https://*/*"/>
+	<acces origin="https://*/*"/>
+	<allow-intent href="http://*/*"/>
+	<acces origin="http://*/*"/>
+	<plugin name="cordova-plugin-whitelist" source="npm"/>
+	
 
 <!--Colocar icono app-->
 
